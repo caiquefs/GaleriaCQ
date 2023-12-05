@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link das imagens usadas na descrição do video-->
+
+    <!--Link Css-->
+   <link rel="stylesheet" href="style.css">
+    <title>Galleria de fotos Responsiva com caixa de pesquisa </title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="heading">Pesquisar imagem</h1>
+
+        <input type="text" placeholder="escreva aqui..." id="search-box">
+
+        <div class="container-image">
+            <div class="image" data-title="cor">
+                <img src="images/1 Cor diferente do padrão.jpg" alt="">
+                <h3>Cor diferente do padrão  -Doação</h3>
+            </div>
+
+            <div class="image" data-title="cor">
+                <img src="images/2 Tonalidade diferente entre os componentes.jpg" alt="">
+                <h3>Tonalidade diferente entre componentes - Doação</h3>
+            </div>
+
+            <div class="image" data-title="mancha">
+                <img src="images/3 Manchado.jpg" alt="">
+                <h3>Manchado - Validar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="cor">
+                <img src="images/4 Baixa solidez a lavagem.jpg" alt="">
+                <h3>Baixa solidez a lavagem - Doação</h3>
+            </div>
+
+            <div class="image" data-title="cor">
+                <img src="images/5 Baixa solidez ao atrito.jpg" alt="">
+                <h3>Baixa solidez ao atrito - Doação</h3>
+            </div>
+
+            <div class="image" data-title="marca">
+                <img src="images/6 baixa solidez a luz.jpg " alt="">
+                <h3>Baixa solidez a luz- Doação</h3>
+            </div>
+
+            <div class="image" data-title="cor">
+                <img src="images/7 Tonalidade diferente entre peças na mesma caixa ou pack.jpg" alt="">
+                <h3>Tonalidade diferente entre peças - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="cor">
+                <img src="images/8 tonalidade diferente entre peças na mesma caixa ou pack.jpg" alt="">
+                <h3>Tonalidade diferente entre peças - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="cor">
+                <img src="images/9 tonalidade diferente entre peças de caixas ou pack diferentes.jpg" alt="">
+                <h3>Tonalidade diferente entre peças - Avaliar junto ao CQ/h3>
+            </div>
+
+            <div class="image" data-title="cor">
+                <img src="images/10 tonalidade da linha divergênte.jpg" alt="">
+                <h3>Tonalidade da linha diferentes - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/11 Fio correndo - fio puxado - enviesado.jpg" alt="">
+                <h3>Fio correndo - Doação</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/12 Fio correndo - Fio puxado - enviesado.jpg" alt="">
+                <h3>Fio enviesado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="furo">
+                <img src="images/13 FURO - RASGO.jpg" alt="">
+                <h3>Furo - Doação</h3>
+            </div>
+
+            <div class="image" data-title="furo">
+                <img src="images/14 FURO - RASGO.jpg" alt="">
+                <h3>Rasgo - Doação</h3>
+            </div>
+
+            <div class="image" data-title="furo">
+                <img src="images/15 FURO - RASGO.jpg" alt="">
+                <h3>Rasgo - Doação</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/16 FIO IRREGULAR - FIO AUSENTE.jpg" alt="">
+                <h3>Fio Ausente - Doação</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/17 Fio irregular - fio ausente.jpg" alt="">
+                <h3>Fio irregular - Doação</h3>
+            </div>
+
+            <div class="image" data-title="rasgo">
+                <img src="images/18 Sem resistência - Esgarçado.jpg" alt="">
+                <h3>Sem resistência - Doação</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/21 Fio contaminado.jpg" alt="">
+                <h3>Fio contaminado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="vinco">
+                <img src="images/22 vinco.jpg" alt="">
+                <h3>Vinco - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="pelo">
+                <img src="images/23 pelosidade.jpg" alt="">
+                <h3>Pelosidade - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/24 barramento.jpg" alt="">
+                <h3>Barramento - Doação</h3>
+            </div>
+
+            <div class="image" data-title="pelo">
+                <img src="images/25 piling.jpg" alt="">
+                <h3>Pilling - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/26 Fio irregular - ausente.jpg" alt="">
+                <h3>Fio ausente - Doação</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/27 Fio irregular- ausente.jpg" alt="">
+                <h3>Fio irregular - Doação</h3>
+            </div>
+
+            <div class="image" data-title="costura">
+                <img src="images/28 Costura com prega (frente).jpg" alt="">
+                <h3>Costura com prega - Doação</h3>
+            </div>
+
+            <div class="image" data-title="costura">
+                <img src="images/29 Faltando costura.jpg" alt="">
+                <h3>Faltandi costura - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="franzido">
+                <img src="images/30 franzido - repuxado.jpg" alt="">
+                <h3>Franzido - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="costura">
+                <img src="images/31 ponto desregulado.jpg" alt="">
+                <h3>Ponto desregulado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="torta">
+                <img src="images/32 Assimetria entre componentes..jpg" alt="">
+                <h3>Assimetria entre componentes - Doação</h3>
+            </div>
+
+            <div class="image" data-title="franzido">
+                <img src="images/33 franzido ou repuxado.jpg" alt="">
+                <h3>Franzido - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="torta">
+                <img src="images/34 caseado desencontrado.jpg" alt="">
+                <h3>Caseado desencontrado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="costura">
+                <img src="images/35 parte costurada pelo avesso.jpg" alt="">
+                <h3>Parte costurada pelo avesso - Doação</h3>
+            </div>
+
+            <div class="image" data-title="furo">
+                <img src="images/36 furo de agulha.jpg" alt="">
+                <h3>Furo de agulha - Doação</h3>
+            </div>
+
+            <div class="image" data-title="furo">
+                <img src="images/37 furo de agulha - marca de conserto.jpg" alt="">
+                <h3>Furo de agulha - Doação</h3>
+            </div>
+
+            <div class="image" data-title="franzido">
+                <img src="images/38 franzimento não uniforme.jpg" alt="">
+                <h3>Franzimento não uniforme - Doação</h3>
+            </div>
+
+            <div class="image" data-title="tecido">
+                <img src="images/39 excesso de tecido.jpg" alt="">
+                <h3>Excesso de tecido - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="tecido">
+                <img src="images/40 excesso de tecido.jpg" alt="">
+                <h3>Excesso de tecido - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="costura">
+                <img src="images/41 Costura torta - descasamento da costura.jpg" alt="">
+                <h3>Costura torta - Doação</h3>
+            </div>
+
+            <div class="image" data-title="costura">
+                <img src="images/42 costura torta - descasamento da costura.jpg" alt="">
+                <h3>Costura torta - Doação</h3>
+            </div>
+
+            <div class="image" data-title="torta">
+                <img src="images/43 assimetria entre componentes.jpg" alt="">
+                <h3>Assimetria entre componentes - Doação</h3>
+            </div>
+
+            <div class="image" data-title="costura">
+                <img src="images/44 costura com prega (costas).jpg" alt="">
+                <h3>Costura com pregas nas costas - Doação</h3>
+            </div>
+
+            <div class="image" data-title="franzido">
+                <img src="images/45 franzido repuxado (costas.jpg)" alt="">
+                <h3>Franzido repuxado nas costas - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="franzido">
+                <img src="images/46 franzido repuxado (costas).jpg" alt="">
+                <h3>Franzido repuxado nas costas - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="torta">
+                <img src="images/47 Peças deformada - Torta.jpg" alt="">
+                <h3>Peça deformada - Doação</h3>
+            </div>
+
+            <div class="image" data-title="torta">
+                <img src="images/48 Peça deformada - torta.jpg" alt="">
+                <h3>Peça deformada - Doação</h3>
+            </div>
+
+            <div class="image" data-title="costura">
+                <img src="images/49 Costura desmanchando ou rompida.jpg" alt="">
+                <h3>Costura desmanchando ou rompida - Doação</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/50 AVIAMENTO NÃO CONFORME A LESGISLAÇÃO.jpg" alt="">
+                <h3>Aviamento não conforme a lesgislação - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/51 Aviamento faltando.jpg" alt="">
+                <h3>Avaiamento faltando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/52 Botão quebrado.jpg" alt="">
+                <h3>Botão quebrado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/53 Aviamento oxidado.jpg" alt="">
+                <h3>Avaiamento oxidado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/54 aviamento quebrado.jpg" alt="">
+                <h3>Avaiamento quebrado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/55 Botão soltando.jpg" alt="">
+                <h3>Botão soltando - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/56 Botão sem pressão - encaixe.jpg" alt="">
+                <h3>Botão sem pressão - Doação</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/57 Botão sem pressão - encaixe.jpg" alt="">
+                <h3>Botão sem pressão - Doação</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/58 Botão desencontrado.jpg" alt="">
+                <h3>Botão desencontrado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="botão">
+                <img src="images/59 Botão desencontrado.jpg" alt="">
+                <h3>Botão desencontrado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="ziper">
+                <img src="images/60 zíper quebrado.jpg" alt="">
+                <h3>Ziper quebrado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="ziper">
+                <img src="images/61 zíper sem função.jpg	" alt="">
+                <h3>Zíper sem função - Doação</h3>
+            </div>
+
+            <div class="image" data-title="ilhos">
+                <img src="images/62 rebite - ilhós - fivela soltando.jpg" alt="">
+                <h3>ilhós soltando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="ilhos">
+                <img src="images/63 rebite - ilhós - fivela soltando.jpg" alt="">
+                <h3>ilhos soltando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="cordão">
+                <img src="images/64 Cordão desfiando.jpg" alt="">
+                <h3>Cordão desfiando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="bojo">
+                <img src="images/65 Bojo amassado.jpg" alt="">
+                <h3>Bojo amassado - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="bojo">
+                <img src="images/66 bojo deformado.jpg" alt="">
+                <h3>Bojo deformado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="aviamento">
+                <img src="images/67 aviamento diferente do especificado.jpg" alt="">
+                <h3>Aviamento diferente do especificado - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="velcro">
+                <img src="images/68 velcro desalinhado.jpg" alt="">
+                <h3>Velcro desalinhado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="infantil">
+                <img src="images/69 NÃO CONFORME LEGISLAÇÃO INFANTIL.jpg" alt="">
+                <h3>Não conforme a legislação infantil - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/70 Estampa falhada.jpg" alt="">
+                <h3>Estampa falhada - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/71 Estampa rachada.jpg" alt="">
+                <h3>Estampa rachada - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/72 estampa pegajosa com excesso de tinta.jpg" alt="">
+                <h3>Estampa pegajosa com excesso de tinta - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/73 estampa migrando.jpg" alt="">
+                <h3>Estampa migrando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/74 estampa descolando - soltando.jpg" alt="">
+                <h3>Estampa descolando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/75 estampa desfiando.jpg" alt="">
+                <h3>Estampa desfiando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/76 estampa descolando - soltando.jpg" alt="">
+                <h3>Estampa soltando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/77 estampa descentralizada.jpg" alt="">
+                <h3>Estampa descentralizada - Doação</h3>
+            </div>
+
+            <div class="image" data-title="enferrujado">
+                <img src="images/78 aviamento oxidado.jpg" alt="">
+                <h3>Avaiamento oxidado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/79 estampa fora do padrão.jpg" alt="">
+                <h3>Estampa fora do padrão - Doação</h3>
+            </div>
+
+            <div class="image" data-title="estampa">
+                <img src="images/80 vinco na estampa.jpg" alt="">
+                <h3>Vinco na estampa - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/81 excesso de linha no bordado.jpg" alt="">
+                <h3>Excesso de bordado - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="marca">
+                <img src="images/82 Marca de bastidor.jpg" alt="">
+                <h3>Marca de bastidor - Doação</h3>
+            </div>
+
+            <div class="image" data-title="marca">
+                <img src="images/83 marca de bastidor.jpg" alt="">
+                <h3>Marca de bastidor - Doação</h3>
+            </div>
+
+            <div class="image" data-title="listras">
+                <img src="images/84  desencontro de listras.jpg" alt="">
+                <h3>Desencontro de listras - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="pano">
+                <img src="images/85 excesso de entrega de entretela - acrilon.jpg" alt="">
+                <h3>Excesso de entrega de entretela - Doação</h3>
+            </div>
+
+            <div class="image" data-title="protetor">
+                <img src="images/86 sem protetor higiênico.jpg" alt="">
+                <h3>Sem protetor higiênico - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="tamanho">
+                <img src="images/87 Faltando de marca tamanho.jpg" alt="">
+                <h3>Faltando marca de tamanho - Doação</h3>
+            </div>
+
+            <div class="image" data-title="marca">
+                <img src="images/88 Marca diferente do especificado.jpg" alt="">
+                <h3>Marca diferente do especificado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="tamanho">
+                <img src="images/89 tamanho diferente do especificado.jpg" alt="">
+                <h3>tamanho diferente do especificado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="tag">
+                <img src="images/90 faltando tag decorativa.jpg" alt="">
+                <h3>Faltando tag decorativa - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="tag">
+                <img src="images/91 faltando tag decorativa.jpg" alt="">
+                <h3>Faltando tag decorativa - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="tag">
+                <img src="images/92 tag decorativa diferente do especificado.jpg" alt="">
+                <h3>Tag diferente do especificado - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="protetor">
+                <img src="images/93 tag decorativa diferente do especificado.jpg" alt="">
+                <h3>Tag diferente do especificado - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/94 etiqueta danificando o produto.jpg" alt="">
+                <h3>Etiqueta danificando o produto - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/95 Etiqueta regulamentada descosturando.jpg" alt="">
+                <h3>Etiqueta regulamentada descosturando - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/96 Etiqueta regulamentada faltando.jpg" alt="">
+                <h3>Etiqueta regulamentada faltando - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/97 Etiqueta regulamentada faltando.jpg" alt="">
+                <h3>Etiqueta regulamentada faltando - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/98 Etiqueta regulamentada faltando.jpg" alt="">
+                <h3>Etiqueta regulamentada faltando - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/99 Etiqueta regulamenta não conforme a legislação.jpg" alt="">
+                <h3>Etiqueta regulamentada não conforme a legislação - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/100 Etiqueta regulamentada não conforme a lesgilação, com erro -  incompleta.jpg" alt="">
+                <h3>Etiqueta regulamentada não conforme a legislação - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/101 Etiqueta desbotada.jpg" alt="">
+                <h3>Etiqueta desbotando - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/102 Etiqueta manchada.jpg" alt="">
+                <h3>Etiqueta manchada - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="artigo">
+                <img src="images/103 Número do artigo incorreto.jpg" alt="">
+                <h3>Número do artigo incorreto - Doação</h3>
+            </div>
+
+            <div class="image" data-title="artigo">
+                <img src="images/104 Número do artigo incorreto.jpg" alt="">
+                <h3>Número do artigo incorreto - Doação</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/105 Etiqueta sku faltando.jpg" alt="">
+                <h3>Etiqueta SKU faltando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/106 Posição incorreta comprometendo o visual do produto.jpg" alt="">
+                <h3>Etiqueta em posição incorreta - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/107 Posição incorreta comprometendo o visual do produto.jpg" alt="">
+                <h3>Etiqueta em posição incorreta - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="mofo">
+                <img src="images/108 Peça com mofo.jpg" alt="">
+                <h3>Peça com mofo - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="mofo">
+                <img src="images/109 peça com mofo.jpg" alt="">
+                <h3>Etiqueta com mofo - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="molhada">
+                <img src="images/110 peça molhada.jpg" alt="">
+                <h3>Peça molhada - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="molhada">
+                <img src="images/111 peça molhada.jpg" alt="">
+                <h3>Peça molhada - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="alfinetes">
+                <img src="images/112 presença de alfinetes.jpg" alt="">
+                <h3>Presença de alfinetes - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="mancha">
+                <img src="images/113 mancha de óleo.jpg" alt="">
+                <h3>Mancha de oléo - Doação</h3>
+            </div>
+
+            <div class="image" data-title="mancha">
+                <img src="images/114 manha de caneta.jpg" alt="">
+                <h3>Mancha de caneta - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="sujo">
+                <img src="images/115 peça suja.jpg" alt="">
+                <h3>Peça suja - Doação</h3>
+            </div>
+
+            <div class="image" data-title="sujo">
+                <img src="images/116 peça suja.jpg" alt="">
+                <h3>Peça suja - Doação</h3>
+            </div>
+
+            <div class="image" data-title="cola">
+                <img src="images/117 marca de cola.jpg" alt="">
+                <h3>Marca de cola - Doação</h3>
+            </div>
+
+            <div class="image" data-title="cola">
+                <img src="images/118 marca de cola.jpg" alt="">
+                <h3>Marca de cola - Doação</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/119 falta de limpeza de costura.jpg" alt="">
+                <h3>Falta de limpeza - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="linha">
+                <img src="images/120 linhas soltas.jpg" alt="">
+                <h3>linha Soltando - Doação</h3>
+            </div>
+
+            <div class="image" data-title="oleo">
+                <img src="images/121 mancha de óleo.jpg" alt="">
+                <h3>Mancha de oléo - Doação</h3>
+            </div>
+
+            <div class="image" data-title="queimada">
+                <img src="images/122 Peça queimada.jpg" alt="">
+                <h3>Peça queimada - Doação</h3>
+            </div>
+
+            <div class="image" data-title="queimada">
+                <img src="images/123 Peça queimada.jpg" alt="">
+                <h3>Peça queimada - Doação</h3>
+            </div>
+
+            <div class="image" data-title="amassada">
+                <img src="images/124 peça amassada-amarrotada.jpg" alt="">
+                <h3>Peça amassada - Validar com líder do processamento</h3>
+            </div>
+
+            <div class="image" data-title="amassada">
+                <img src="images/125 peçã amassada.jpg" alt="">
+                <h3>Peça amassada - Validar com líder do processamento</h3>
+            </div>
+
+            <div class="image" data-title="brilho">
+                <img src="images/126 peça com brilho - marca de passadoria.jpg" alt="">
+                <h3>Marca de passadoria (Brilho) - Validar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="marca">
+                <img src="images/127 marca de passadoria.jpg" alt="">
+                <h3>Mancha de oléo - Doação</h3>
+            </div>
+
+            <div class="image" data-title="marca">
+                <img src="images/128 marca de passadoria.jpg" alt="">
+                <h3>Marca de passadoria - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="vinco">
+                <img src="images/129 falta de vinco - quebra da barra.jpg" alt="">
+                <h3>Falta de vinco- Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="vinco">
+                <img src="images/130 falta de vinco - quebra da barra.jpg" alt="">
+                <h3>Falta de vinco- Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/131 Etiqueta preço informação incorreta.jpg" alt="">
+                <h3>Etiqueta preço com informação incorreta - Solicitar reimpressão no processamento</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/132 Etique preço informação incorreta.jpg" alt="">
+                <h3>Etiqueta preço com informação incorreta - Solicitar reimpressão no processamento</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/133 Etiqueta preço faltando (faltando informação).jpg" alt="">
+                <h3>Etiqueta preço faltando - Solicitar reimpressão no processamento</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/134 Etiqueta com erro.jpg" alt="">
+                <h3>Etiqueta preço faltando - Solicitar reimpressão no processamento</h3>
+            </div>
+
+            <div class="image" data-title="etiqueta">
+                <img src="images/135 Faltando etiqueta preço.jpg" alt="">
+                <h3>Etiqueta preço faltando - Solicitar reimpressão no processamento</h3>
+            </div>
+
+            <div class="image" data-title="tamanho">
+                <img src="images/136 Medida fora do especificado.jpg" alt="">
+                <h3>Medida fora do especificado - Avalair junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="tamanho">
+                <img src="images/137 Medidas dora do especificado.jpg" alt="">
+                <h3>Medida fora do especificado - Avalair junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="tamanho">
+                <img src="images/138 Medidas fora do especificado.jpg" alt="">
+                <h3>Medida fora do especificado - Avalair junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="tamanho">
+                <img src="images/139 Medidas fora do especificado.jpg" alt="">
+                <h3>Medida fora do especificado - Avalair junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="tamanho">
+                <img src="images/140 Medidas fora do especificado.jpg" alt="">
+                <h3>Medida fora do especificado - Avalair junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="fast pin">
+                <img src="images/141 Faltando fast pin.jpg" alt="">
+                <h3>Faltando Fast-pin - Avaliar junto ao processamento</h3>
+            </div>
+
+            <div class="image" data-title="cabide">
+                <img src="images/142 faltando prolongador de cabide.jpg" alt="">
+                <h3>Faltando prolongador de cabide - Avaliar junto ao processamento</h3>
+            </div>
+
+            <div class="image" data-title="material divergênte">
+                <img src="images/143 modelo diferente do especificado.jpg" alt="">
+                <h3>Material divergênte - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="cabide">
+                <img src="images/144 cabide diferente do especificado.jpg" alt="">
+                <h3>Cabide diferente do especificado - Avaliar junto ao Recebimento</h3>
+            </div>
+
+            <div class="image" data-title="cabide">
+                <img src="images/145 cabide diferente do especificado.jpg" alt="">
+                <h3>Cabide diferente do especificado - Avaliar junto ao Recebimento</h3>
+            </div>
+
+            <div class="image" data-title="cabide">
+                <img src="images/146 cabide oxidado.jpg" alt="">
+                <h3>Cabide oxidado - Avaliar junto ao processamento/h3>
+            </div>
+
+            <div class="image" data-title="desparceirado">
+                <img src="images/147 conjunto desparceirado - faltando fast pin.jpg" alt="">
+                <h3>Material desparceirado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="desparceirado">
+                <img src="images/148 Conjunto desparceirado - faltando fast pin.jpg" alt="">
+                <h3>Material desparceirado - Doação</h3>
+            </div>
+
+            <div class="image" data-title="fast pin">
+                <img src="images/149 fast pin danificando o produto.jpg" alt="">
+                <h3>Fast pin danificando o produto - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="fast pin">
+                <img src="images/150 fast pin danificando o produto.jpg" alt="">
+                <h3>Fast pin danificando o produto - Avaliar junto ao CQ</h3>
+            </div>
+
+            <div class="image" data-title="cabide">
+                <img src="images/151 posiçãi incorreta comprometendo o visual do produto.jpg" alt="">
+                <h3>Cabide em posição incorreta - Avaliar junto ao processamento</h3>
+            </div>
+
+            <div class="image" data-title="fast pin">
+                <img src="images/152 posição incorreta comprometendo visual do produto.jpg" alt="">
+                <h3>fast pin em posição incorreta - Avaliar junto ao processamento</h3>
+            </div>
+
+            <div class="image" data-title="fast pin">
+                <img src="images/153 posição incorreta.jpg" alt="">
+                <h3>fast pin em posição incorreta - Avaliar junto ao processamento</h3>
+            </div>
+        </div>
+    </div>
+   
+    <!--Link Css-->
+    <script src="main.js"></script>
+</body>
+
+</html>
